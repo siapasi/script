@@ -1,12 +1,12 @@
 <?php
 $token = "M-JV@79vwPE"; // Ganti dengan token WhatsApp Anda
-$target = "6287712@g.us"; // Ganti dengan nomor tujuan WhatsApp Anda
+$target = "62888888771@g.us"; // Ganti dengan nomor tujuan WhatsApp Anda
 
 // Koneksi ke database MySQL
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "re";
+$dbname = "redm";
 
 
 // Buat koneksi
@@ -18,7 +18,7 @@ if ($connect->connect_error) {
 }
 
 // Daftar assigne yang ingin ditampilkan
-$assigneList = array('Oka IT', 'Visarah Armelia', 'Hendrik Tatang GA', 'Resepsionis JSM', 'Ahmad Deni', 'Fragil Jatmiko', 'Mursyid (^ ^_)', 'Dedi Wahyudi');
+$assigneList = array('GA','Oka IT', 'Visarah Armelia', 'Hendrik Tatang GA', 'Resepsionis JSM', 'Ahmad Deni', 'Fragil Jatmiko', 'Mursyid (^ ^_)', 'Dedi Wahyudi');
 
 // Inisialisasi array untuk menyimpan jumlah tiket berdasarkan assigne
 $assigneCount = array();
